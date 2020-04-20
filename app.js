@@ -284,10 +284,10 @@ async.forEachOf(connection_list, function (value, key, callback){
         if(err) console.error(err.message);
         // lift the app
         app.listen(app_port, app_host, function (){
-            console.log('adminMongo listening on host: http://' + app_host + ':' + app_port + app_context);
+            console.log('JetMongoAdmin listening on host: http://' + app_host + ':' + app_port + app_context);
 
             // used for electron to know when express app has started
-            app.emit('startedAdminMongo');
+            app.emit('startedJetMongoAdmin');
 
             if(nconf.stores.app.get('app:monitoring') !== false){
                 // start the initial monitoring
@@ -300,10 +300,10 @@ async.forEachOf(connection_list, function (value, key, callback){
             }
         }).on('error', function (err){
             if(err.code === 'EADDRINUSE'){
-                console.error('Error starting adminMongo: Port ' + app_port + ' already in use, choose another');
+                console.error('Error starting JetMongoAdmin: Port ' + app_port + ' already in use, choose another');
             }else{
-                console.error('Error starting adminMongo: ' + err);
-                app.emit('errorAdminMongo');
+                console.error('Error starting JetMongoAdmin: ' + err);
+                app.emit('errorJetMongoAdmin');
             }
         });
     });

@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 {}
+=======
+{
+  "connections": {
+    "local": {
+      "connection_string": "mongodb://127.0.0.1:27017",
+      "connection_options": {}
+    }
+  }
+}
+>>>>>>> a5e51190eaad7377e704f1400b0b9a5a39d252c1
