@@ -59,22 +59,13 @@ function createWindow(){
 // Some APIs can only be used after this event occurs.
 // express.on('startedAdminMongo', createWindow);
 app.on('ready', function (){
-<<<<<<< HEAD
-    express.on('startedAdminMongo', function (){
-=======
     express.on('startedJetMongoAdmin', function (){
->>>>>>> a5e51190eaad7377e704f1400b0b9a5a39d252c1
         createWindow();
     });
 });
 
-<<<<<<< HEAD
-express.on('errorAdminMongo', function (){
-    dialog.showErrorBox('Error', 'Error starting adminMongo. Please ensure no other instances are running before trying again.');
-=======
 express.on('errorJetMongoAdmin', function (){
     dialog.showErrorBox('Error', 'Error starting JetMongoAdmin. Please ensure no other instances are running before trying again.');
->>>>>>> a5e51190eaad7377e704f1400b0b9a5a39d252c1
     app.quit();
 });
 

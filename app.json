@@ -1,12 +1,6 @@
 {
-<<<<<<< HEAD
-  "name": "adminMongo",
-  "description": "adminMongo is a Web based user interface (GUI) to handle all your MongoDB connections/databases needs.",
-  "repository": "https://github.com/mrvautin/adminMongo",
-=======
   "name": "JetMongoAdmin",
   "description": "JetMongoAdmin is a Web based user interface (GUI) to handle all your MongoDB connections/databases needs.",
->>>>>>> a5e51190eaad7377e704f1400b0b9a5a39d252c1
   "logo": "https://raw.githubusercontent.com/mrvautin/mrvautin.github.io/master/images/adminMongo/adminMongo-Logo.png",
   "keywords": ["node", "express", "mongodb"]
 }

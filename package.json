@@ -2,36 +2,17 @@
   "name": "admin-mongo",
   "version": "0.0.23",
   "description": "A Web user interface to administer MongoDB databases built using Express",
-<<<<<<< HEAD
-  "author": "Mark Moffat <mrvautin@gmail.com>",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mrvautin/adminmongo"
-  },
-  "main": "electron.js",
-  "bugs": {
-    "url": "https://github.com/mrvautin/adminmongo/issues"
-=======
   "private": false,
   "main": "electron.js",
   "bugs": {
->>>>>>> a5e51190eaad7377e704f1400b0b9a5a39d252c1
   },
   "scripts": {
     "start": "node app.js",
     "test": "find ./tests -name '*.js' | xargs mocha -R spec -t 5000",
-<<<<<<< HEAD
-    "packageOsx": "electron-packager ./ adminMongo --out=releases/ --platform=darwin --arch=x64 --prune --overwrite --ignore=releases/* --icon=public/logo.icns",
-    "packageWin32": "electron-packager ./ adminMongo --out=releases/ --platform=win32 --arch=ia32 --prune --overwrite --ignore=releases/* --icon=public/logo.ico",
-    "packageWin64": "electron-packager ./ adminMongo --out=releases/ --platform=win32 --arch=x64 --prune --overwrite --ignore=releases/* --icon=public/logo.ico",
-    "packageLinux": "electron-packager ./ adminMongo --out=releases/ --platform=linux --arch=ia32 --prune --overwrite --ignore=releases/* --icon=public/logo.ico"
-=======
     "packageOsx": "electron-packager ./ JetMongoAdmin --out=releases/ --platform=darwin --arch=x64 --prune --overwrite --ignore=releases/* --icon=public/logo.icns",
     "packageWin32": "electron-packager ./ JetMongoAdmin --out=releases/ --platform=win32 --arch=ia32 --prune --overwrite --ignore=releases/* --icon=public/logo.ico",
     "packageWin64": "electron-packager ./ JetMongoAdmin --out=releases/ --platform=win32 --arch=x64 --prune --overwrite --ignore=releases/* --icon=public/logo.ico",
     "packageLinux": "electron-packager ./ JetMongoAdmin --out=releases/ --platform=linux --arch=ia32 --prune --overwrite --ignore=releases/* --icon=public/logo.ico"
->>>>>>> a5e51190eaad7377e704f1400b0b9a5a39d252c1
   },
   "keywords": [
     "mongo",
@@ -56,12 +37,8 @@
     "cross platform",
     "open source",
     "admin-mongo",
-<<<<<<< HEAD
-    "adminmongo"
-=======
     "adminmongo",
     "JetMongoAdmin"
->>>>>>> a5e51190eaad7377e704f1400b0b9a5a39d252c1
   ],
   "dependencies": {
     "async": "^2.0.0",
