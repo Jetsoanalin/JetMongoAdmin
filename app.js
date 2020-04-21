@@ -176,11 +176,11 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 
 // setup session
-app.use(session({
-    secret: '858SGTUyX8w1L6JNm1m93Cvm8uX1QX2D',
-    resave: true,
-    saveUninitialized: true
-}));
+// app.use(session({
+//     secret: '858SGTUyX8w1L6JNm1m93Cvm8uX1QX2D',
+//     resave: true,
+//     saveUninitialized: true
+// }));
 
 // front-end modules loaded from NPM
 app.use(app_context + '/static', express.static(path.join(dir_base, 'public/')));
